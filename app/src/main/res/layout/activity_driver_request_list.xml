@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DriverRequestList">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize"
+        android:paddingStart="@dimen/padding"
+        android:text="@string/view_pass_requests"
+        android:textColor="@color/primaryColor"
+        android:textStyle="italic"
+        android:layout_margin="@dimen/margin"/>
+
+    <ListView
+        android:id="@+id/listviewPassRequests"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/margin"/>
+
+    <Button
+        android:id="@+id/btnUpdateRequests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_requests"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:textSize="@dimen/textsize"/>
+
+</LinearLayout>

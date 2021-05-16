@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PassengerActivity">
+
+    <fragment
+        android:id="@+id/map1"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/activity_passenger">
+
+    </fragment>
+
+    <Button
+        android:id="@+id/btnPassengerRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:background="@color/primaryColor"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize"
+        android:padding="@dimen/padding"
+        android:text="@string/btn_rideRequest"/>
+
+    <Button
+        android:id="@+id/btnCheckForUpdates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:background="@color/primaryColor"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize"
+        android:padding="@dimen/padding"
+        android:text="@string/btn_driverUpdate"/>
+
+    <Button
+        android:id="@+id/btnLogoutPassenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/primaryColor"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize"
+        android:padding="@dimen/padding"
+        android:text="@string/logout"/>
+
+</LinearLayout>

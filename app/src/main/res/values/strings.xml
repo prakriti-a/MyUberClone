@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Uber Clone</string>
+    <string name="hint_number">Enter Mobile Number</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="rb_passenger">Passenger</string>
+    <string name="rb_driver">Driver</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="btn_oneTimeLogin">ONE TIME LOGIN</string>
+    <string name="login">LOG IN</string>
+    <string name="app_logo">APP LOGO</string>
+    <string name="text1">Don\'t want to sign up or login?</string>
+
+
+    <string name="title_activity_passenger">Passenger Map</string>
+    <string name="btn_rideRequest">GET A RIDE</string>
+    <string name="cancelRideRequest">CANCEL RIDE REQUEST</string>
+    <string name="error_occured">Error occured\nPlease try again</string>
+    <string name="unknown_error">Unknown Error\nSomething went wrong</string>
+    <string name="ride_req_cancelled">Ride Request Cancelled</string>
+    <string name="ride_req_sent">Ride Request Sent...</string>
+    <string name="you_are_here">You are here</string>
+    <string name="logout">LOG OUT</string>
+
+    <string name="unable_to_logout">Unable to logout\nPlease try again</string>
+    <string name="user_logout">You have logged out</string>
+    <string name="view_pass_requests">View Passenger Requests Here:</string>
+    <string name="update_requests">GET NEARBY REQUESTS</string>
+    <string name="driver_title">Uber for Drivers</string>
+    <string name="empty_requests">No new requests available</string>
+    <string name="title_activity_view_location">Map</string>
+    <string name="view_loc_map">Showing passenger location...</string>
+    <string name="accept_ride_req">ACCEPT RIDE REQUEST</string>
+    <string name="driver_saved">Saved Driver Location</string>
+    <string name="req_accepted">Your Request Is Accepted</string>
+    <string name="btn_driverUpdate">RIDE REQUEST STATUS</string>
+    <string name="no_drivers">No Drivers Available\nPlease Try Again</string>
+    <string name="driver_arrived">Driver has arrived at your location</string>
+    <string name="get_another_ride">GET ANOTHER RIDE</string>
+
+</resources>
